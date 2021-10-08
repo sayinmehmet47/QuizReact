@@ -1,7 +1,6 @@
 
 Here the link to take some quiz 🙃
-https://tender-raman-f983f3.netlify.app/
-
+https://quiz-app47.netlify.app/
 
 
 ![Screenshot_1](https://user-images.githubusercontent.com/75525090/115990568-9f552180-a5cc-11eb-9beb-3e6a39cdf707.png)
