@@ -6,10 +6,10 @@ function App() {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
   const [items, setItems] = useState([]);
-  const [amount, setAmount] = useState("10");
-  const [category, setCategory] = useState("23");
+  const [amount, setAmount] = useState('10');
+  const [category, setCategory] = useState('23');
   const [difficulty, setDifficulty] = useState('easy');
-  const [start, setStart] = useState("false");
+  const [start, setStart] = useState('false');
 
   useEffect(() => {
     fetch(
@@ -27,17 +27,22 @@ function App() {
           setError(error);
         }
       );
-  }, [amount,category,difficulty]);
+  }, [amount, category, difficulty]);
   console.log(error);
   console.log(isLoaded);
 
-  return start === "true" ? (
+  return start === 'true' ? (
     <div className="App">
       <QuestionGrid isLoaded={isLoaded} items={items} />
     </div>
   ) : (
     <div>
-      <StartScreen amount={(e)=>setAmount(e)} category={(e)=>setCategory(e)} difficulty={(e)=>setDifficulty(e)} start={(e)=>setStart(e)}/>
+      <StartScreen
+        amount={(e) => setAmount(e)}
+        category={(e) => setCategory(e)}
+        difficulty={(e) => setDifficulty(e)}
+        start={(e) => setStart(e)}
+      />
     </div>
   );
 }
