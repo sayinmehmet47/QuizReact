@@ -1,6 +1,7 @@
-# Technology that Used
+# Technologies Used
  - ReactJS
 
+#How to use
 - You can choose;
     - [x] Number of question
     - [x] Type of question
@@ -8,6 +9,8 @@
 - When you are in the test, you will be alerted if you are answered correct or not
 - At the end, you can see your result
 
+For fetching question data,
+ -https://opentdb.com/  used
 
 
 
