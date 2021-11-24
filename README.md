@@ -1,12 +1,13 @@
+# Technology that Used
+ - ReactJS
 
-
-- This project created on Reactjs
 - You can choose;
     - [x] Number of question
     - [x] Type of question
     - [x] Hardship level
 - When you are in the test, you will be alerted if you are answered correct or not
 - At the end, you can see your result
+
 
 
 
