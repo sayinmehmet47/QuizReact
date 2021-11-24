@@ -9,7 +9,7 @@
 - When you are in the test, you will be alerted if you are answered correct or not
 - At the end, you can see your result
 
-For fetching question data,
+For fetching question data I used this API
  - [x] https://opentdb.com/ 
 
 
