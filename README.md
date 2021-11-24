@@ -1,7 +1,7 @@
 # Technologies Used
  - ReactJS
 
-#How to use
+# How to use
 - You can choose;
     - [x] Number of question
     - [x] Type of question
