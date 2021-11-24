@@ -1,6 +1,4 @@
 
-Here the link to take some quiz 🙃
-https://quiz-app47.netlify.app/
 
 - This project created on Reactjs
 - You can choose;
