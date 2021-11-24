@@ -10,7 +10,7 @@
 - At the end, you can see your result
 
 For fetching question data,
- -https://opentdb.com/  used
+ - [x] https://opentdb.com/ 
 
 
 
